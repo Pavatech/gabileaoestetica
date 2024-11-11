@@ -1,4 +1,4 @@
-/* styles.css */
+/* estilos.css */
 
 /* Corpo */
 body {
@@ -12,14 +12,14 @@ header {
     position: relative;
     width: 100%;
     height: 200px; /* Ajuste a altura conforme necessário */
-    background-image: url('img/pele.jpeg'); /* Caminho para a imagem de fundo */
+    background-image: url('img/pele.jpeg');
     background-size: cover;
     background-position: center;
-    color: #fff; /* Cor do texto */
+    color: #fff;
     display: flex;
     align-items: center;
-    padding: 0 20px; /* Espaçamento lateral */
-    box-sizing: border-box; /* Inclui padding e border no width e height */
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 /* Contêiner do Cabeçalho */
@@ -39,7 +39,7 @@ header {
 
 /* Título do Cabeçalho */
 .header-title {
-    flex: 2; /* Usa o espaço disponível restante */
+    flex: 2;
     text-align: center;
 }
 
@@ -48,14 +48,14 @@ header h1 {
     margin: 0;
     font-size: 24px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para melhor legibilidade */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Contêiner de Redes Sociais */
 .social-container {
     flex: 1;
     display: flex;
-    justify-content: flex-end; /* Alinha o botão à direita */
+    justify-content: flex-end;
 }
 
 /* Botão do Instagram */
@@ -67,12 +67,13 @@ header h1 {
 
 /* Ícone do Instagram */
 .instagram-icon {
-    width: 40px; /* Ajuste o tamanho conforme necessário */
+    width: 40px;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
+/* Navegação */
 nav {
     background-color: #2550c5;
     color: #fff;
@@ -137,18 +138,18 @@ main {
 }
 
 /* Carrossel */
-.sistema-carousel-container {
+.carousel-container {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.sistema-carousel {
+.carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
 
-.sistema-slide {
+.slide {
     min-width: 100%;
     height: 400px;
     display: flex;
@@ -158,8 +159,8 @@ main {
     background-position: center;
 }
 
-.sistema-slide-content {
-    background-color: rgba(255, 192, 203, 0.8); /* Rosa claro com transparência */
+.slide-content {
+    background-color: rgba(255, 192, 203, 0.8);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
