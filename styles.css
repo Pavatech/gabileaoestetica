@@ -138,18 +138,18 @@ main {
 }
 
 /* Carrossel */
-.carousel-container {
+.sistema-carousel-container {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.carousel {
+.sistema-carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
 
-.slide {
+.sistema-slide {
     min-width: 100%;
     height: 400px;
     display: flex;
@@ -159,8 +159,8 @@ main {
     background-position: center;
 }
 
-.slide-content {
-    background-color: rgba(255, 192, 203, 0.8);
+.sistema-slide-content {
+    background-color: rgba(255, 192, 203, 0.8); /* Rosa claro com transparência */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
