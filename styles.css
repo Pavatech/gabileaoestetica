@@ -1,122 +1,36 @@
-/* ... (seu CSS atual permanece o mesmo até aqui) ... */
-
-/* --- RESPONSIVIDADE MOBILE --- */
-@media (max-width: 768px) {
-    header {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .header-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo {
-        width: 120px;
-        margin-bottom: 10px;
-    }
-
-    .header-title {
-        flex: unset;
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    .social-container {
-        justify-content: center;
-        margin-top: 10px;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .section {
-        padding: 20px 10px;
-    }
-
-    .section h2 {
-        font-size: 1.5em;
-    }
-
-    .section p {
-        font-size: 1em;
-    }
-
-    .sistema-slide {
-        height: 250px;
-        padding: 10px;
-    }
-
-    .sistema-slide-content {
-        font-size: 0.9em;
-        padding: 15px;
-    }
-
-    .carousel-control {
-        padding: 5px;
-    }
-
-    .site-cards-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .site-card {
-        width: 90%;
-    }
-
-    .site-content h3 {
-        font-size: 1.3em;
-    }
-
-    .site-content p {
-        font-size: 0.95em;
-    }
-
-    .contact-button {
-        width: 90%;
-        padding: 12px;
-        font-size: 1em;
-    }
-
-    footer p {
-        font-size: 0.9em;
-        padding: 0 10px;
-    }
+@media (max-width:1024px){
+    .header-container{flex-direction:column;text-align:center;gap:10px}
+    .logo{width:120px;margin-bottom:10px}
+    .social-container{justify-content:center}
+    nav ul{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+    .site-cards-container{flex-wrap:wrap;justify-content:center}
+    .site-card{width:45%}
 }
 
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 20px;
-    }
+@media (max-width:768px){
+    header{flex-direction:column;height:auto;padding:15px 10px}
+    .logo{width:100px}
+    header h1{font-size:20px}
+    nav{padding:10px 0}
+    nav ul li a{font-size:1.1em}
+    .section{padding:20px 10px;margin:10px}
+    .section h2{font-size:1.4em}
+    .section p{font-size:1em}
+    .sistema-slide{height:220px}
+    .sistema-slide-content{padding:15px;font-size:0.95em}
+    .carousel-control{padding:8px}
+    .site-cards-container{flex-direction:column;align-items:center}
+    .site-card{width:90%}
+    .site-content h3{font-size:1.3em}
+    .contact-button{width:100%;font-size:1em;padding:12px}
+    footer p{font-size:0.9em;padding:0 10px}
+}
 
-    nav ul li a {
-        font-size: 0.95em;
-    }
-
-    .site-content h3 {
-        font-size: 1.1em;
-    }
-
-    .site-content p {
-        font-size: 0.9em;
-    }
-
-    .section h2 {
-        font-size: 1.3em;
-    }
-
-    .section p {
-        font-size: 0.95em;
-    }
-
-    .contact-button {
-        font-size: 0.95em;
-        padding: 10px;
-    }
+@media (max-width:480px){
+    header h1{font-size:18px}
+    nav ul li a{font-size:1em}
+    .site-content p{font-size:0.9em}
+    .carousel-control{padding:6px}
+    .logo{width:90px}
+    .contact-button{font-size:0.95em}
 }
