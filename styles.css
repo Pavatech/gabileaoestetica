@@ -184,7 +184,7 @@ main {
 }
 
 .site-card {
-    background-color: #fff; /* marrom médio */
+    background-color: #7A3E2C; /* marrom médio */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -195,7 +195,7 @@ main {
 
 .site-card:hover {
     transform: translateY(-10px);
-    background-color: #A44A24; /* ferrugem */
+    background-color: #fff; /* ferrugem */
 }
 
 .site-image {
