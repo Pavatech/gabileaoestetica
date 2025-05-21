@@ -124,7 +124,7 @@ main {
 
 .section p {
     font-size: 1.2em;
-    color: #5A3625; /* marrom escuro */
+    color: #fff; /* marrom escuro */
 }
 
 .sistema-carousel-container {
@@ -195,7 +195,7 @@ main {
 
 .site-card:hover {
     transform: translateY(-10px);
-    background-color: #fff; /* ferrugem */
+    background-color: #A44A24; /* ferrugem */
 }
 
 .site-image {
