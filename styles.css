@@ -1,6 +1,12 @@
+:root {
+    --fonte-primaria: 'Arial', sans-serif;
+    --fonte-titulo: 'Georgia', serif;
+    --fonte-destaque: 'Trebuchet MS', sans-serif;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: var(--fonte-primaria);
     line-height: 1.6;
     background-color: #FBB37D; /* pêssego claro */
 }
@@ -41,6 +47,7 @@ header h1 {
     margin: 0;
     font-size: 24px;
     font-weight: bold;
+    font-family: var(--fonte-titulo);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     color: #5A3625; /* marrom escuro */
 }
@@ -61,7 +68,6 @@ header h1 {
     width: 32px;
     height: 32px;
 }
-
 
 nav {
     background-color: #0D3B2E; /* verde escuro */
@@ -90,6 +96,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
+    font-family: var(--fonte-primaria);
     transition: color 0.3s ease;
 }
 
@@ -118,11 +125,13 @@ main {
     font-size: 2em;
     margin-bottom: 20px;
     color: #A44A24; /* ferrugem */
+    font-family: var(--fonte-titulo);
 }
 
 .section p {
     font-size: 1.2em;
     color: #000; /* marrom escuro */
+    font-family: var(--fonte-primaria);
 }
 
 .sistema-carousel-container {
@@ -152,6 +161,7 @@ main {
     border-radius: 10px;
     text-align: center;
     color: #fff;
+    font-family: var(--fonte-primaria);
 }
 
 .carousel-control {
@@ -205,16 +215,19 @@ main {
     padding: 20px;
     text-align: center;
     color: #fff;
+    font-family: var(--fonte-primaria);
 }
 
 .site-content h3 {
     font-size: 1.5em;
     color: #FBB37D; /* pêssego claro */
     margin-bottom: 10px;
+    font-family: var(--fonte-destaque);
 }
 
 .site-content p {
     font-size: 1em;
+    font-family: var(--fonte-primaria);
 }
 
 footer {
@@ -222,6 +235,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    font-family: var(--fonte-primaria);
 }
 
 footer p {
@@ -238,6 +252,7 @@ footer p {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-family: var(--fonte-primaria);
 }
 
 .contact-button:hover {
