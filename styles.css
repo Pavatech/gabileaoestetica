@@ -124,7 +124,7 @@ main {
 
 .section p {
     font-size: 1.2em;
-    color: #fff; /* marrom escuro */
+    color: #000; /* marrom escuro */
 }
 
 .sistema-carousel-container {
