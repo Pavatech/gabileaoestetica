@@ -53,18 +53,17 @@ header h1 {
     justify-content: flex-end;
 }
 
-.instagram-button {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+.button {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .instagram-icon {
-    width: 40px;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    width: 32px;
+    height: 32px;
 }
+
 
 nav {
     background-color: #0D3B2E; /* verde escuro */
