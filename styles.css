@@ -128,7 +128,7 @@ main {
 
 .section p {
     font-size: 1.2em;
-    color: #000; /* marrom escuro */
+    color: #ffffff; /* marrom escuro */
     font-family: var(--fonte-primaria);
 }
 
