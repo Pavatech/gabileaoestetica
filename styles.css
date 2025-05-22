@@ -285,3 +285,40 @@ footer p {
     background-color: var(--cor-terciaria);
     color: var(--cor-branco);
 }
+
+.sobre-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.sobre-texto {
+  flex: 1;
+  font-family: var(--fonte-primaria);
+}
+
+.sobre-texto h2 {
+  font-family: var(--fonte-titulo);
+  color: var(--cor-secundaria);
+}
+
+.sobre-texto p {
+  font-size: 1.2em;
+  color: var(--cor-branco);
+}
+
+.sobre-imagem {
+  flex: 1;
+  text-align: center;
+}
+
+.sobre-imagem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
