@@ -277,5 +277,5 @@ footer p {
 
 .contact-button:hover {
     background-color: var(--cor-terciaria);
-    color: var(--cor-marrom-escuro);
+    color: var(--cor-branco);
 }
