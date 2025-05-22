@@ -132,6 +132,7 @@ main {
     font-family: var(--fonte-titulo);
 }
 
+/* Aqui: subtítulos sempre brancos */
 .section p {
     font-size: 1.2em;
     color: var(--cor-branco);
@@ -149,6 +150,7 @@ main {
     transition: transform 0.5s ease-in-out;
 }
 
+/* Ajuste para slides do carrossel */
 .sistema-slide {
     min-width: 100%;
     height: 400px;
@@ -159,6 +161,7 @@ main {
     background-position: center;
 }
 
+/* Conteúdo do slide */
 .sistema-slide-content {
     background-color: rgba(10, 59, 46, 0.8);
     padding: 20px;
@@ -168,14 +171,16 @@ main {
     font-family: var(--fonte-primaria);
 }
 
+/* Ajuste para o título do primeiro carrossel ficar igual aos outros */
 .sistema-slide-content h2,
 .sistema-slide-content h3 {
     font-family: var(--fonte-titulo);
     font-size: 2em;
     margin-bottom: 10px;
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria); /* Usar ferrugem para título, como no site */
 }
 
+/* Parágrafo do slide em branco */
 .sistema-slide-content p {
     font-size: 1.2em;
     color: var(--cor-branco);
@@ -248,6 +253,7 @@ main {
 
 .site-content p {
     font-size: 1em;
+    color: var(--cor-branco);
 }
 
 footer {
