@@ -122,13 +122,13 @@ main {
 .section h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #A44A24; /* ferrugem */
+    color: #ffffff; /* ferrugem */
     font-family: var(--fonte-titulo);
 }
 
 .section p {
     font-size: 1.2em;
-    color: #ffffff; /* marrom escuro */
+    color: #ffffff; /* subtitulos */
     font-family: var(--fonte-primaria);
 }
 
