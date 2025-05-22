@@ -276,6 +276,6 @@ footer p {
 }
 
 .contact-button:hover {
-    background-color: var(--cor-marrom-quase-preto);
+    background-color: var(--cor-terciaria);
     color: var(--cor-marrom-escuro);
 }
